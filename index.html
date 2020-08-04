@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riley Champion</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d82315dbad.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#hero-container" class="nav-link">
+                    <i class="fas fa-home fa-2x"></i>
+                    <span class="link-text">Home</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#about-container" class="nav-link">
+                    <i class="fas fa-address-card fa-2x"></i>
+                    <span class="link-text">About</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#projects-container" class="nav-link">
+                    <i class="fas fa-project-diagram fa-2x"></i>
+                    <span class="link-text">Projects</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact-container" class="nav-link">
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <span class="link-text">Contact</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.linkedin.com/in/rileychampion/" class="nav-socials">
+                    <i class="fab fa-linkedin fa-lg"></i>
+                </a>
+                <a href="https://github.com/RileyChampion" class="nav-socials">
+                    <i class="fab fa-github fa-lg"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div id="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Riley <span class="orange-text">Champion</span></h1>
+                    <h3>Student | <span class="orange-text">Software Engineer</span></h3>
+                </div>
+                <a href="#about-container"><img class="arrow-image" src="./images/arrow-icon-02.png"></a>
+            </div>
+        </div>
+        <hr>
+        <div id="about-container">
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 col-sm-12 about-img">
+                    <div class="about-img-content">
+                        <div class="border-spin"></div>
+                        <div class="border-spin2"></div>
+                        <img class="profile-img" src="./images/0.jpg">
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12 about-text">
+                    <div class="text-wrapper">
+                        <h2 class="about-title orange-text">Hi There!</h2>
+                        <p>
+                            My name is Riley, I am a rising third-year at UC Irvine pursuing a B.S. in Computer Science. I grew up in a small town in Riverside County, and with little time on my hands, I found myself attached to our family computer. My interest only continued as I learned more about computer programming and software development, and once I entered college, the rest is history!
+                        </p>
+                        <p>
+                            From the numerous amount of coursework, hackathons, and personal projects, I am always looking for ways to better the skills that will equip me for my future career. Whether it be through understanding the nuances of numerous algorithms and data structures or through exploring the complexities of computer architecture, each experience has taught and challenged me to become a better developer.
+                        </p>
+                        <p>
+                            Currently, I am exploring my interest in Web Development with both the front and backend by developing full-stack projects and taking multiple Udemey courses. Additionally, I am proficient in languages like Python, C++, and C, while on the other hand, I am learning new frameworks and languages including NodeJS and ReactJS. When I'm not coding, I usually spend my time playing videogames, going on long-distance runs, and drawing.
+                        </p>
+                        <div class="buttons-wrapper">
+                            <a href="https://www.linkedin.com/in/rileychampion/" class="social-links">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                            <a href="https://github.com/RileyChampion" class="social-links">
+                                <i class="fab fa-github fa-2x"></i>
+                            </a>
+                            <button href="./pdf/Resume-2020.pdf" class="btn btn-outline-warning btn-custom" target="_blank">Resume</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div id="projects-container">
+            <h3 class="section-text">Projects</h3>
+            <div class="project-deck">
+                <a href="https://devpost.com/software/codebattle-c96yms" class="card">
+                    <div class="project-img code-battle"></div>
+                    <hr>
+                    <h4 class="project-title">CodeBattles</h4>
+                    <p class="project-descriptions">CodeBattle is a one-on-one coding challenge game inspired by a constructive rivalry among a small group of engineering 
+                        students familiar with time-based coding challenges on CodingBat as well as TypeRacer.</p>
+                    <p class="tech-stack"><span class="badge badge-pill badge-primary">ReactJS</span> <span class="badge badge-pill badge-success">CSS</span> <span class="badge badge-pill badge-danger">HTML</span> <span class="badge badge-pill badge-warning">AdobeIllustrator</span></p>
+                </a>
+                <a href="https://github.com/RileyChampion/SnakeGame" class="card">
+                    <div class="project-img snake-game"></div>
+                    <hr>
+                    <h4 class="project-title">SnakeGame</h4>
+                    <p class="project-descriptions">Built a clone of the popular, classic game Snake using PyGame. Currently a very rough version is playable!
+                    </p>
+                    <p class="tech-stack"><span class="badge badge-pill badge-warning">Python</span></p>
+                </a>
+                <a href="https://github.com/rise-summer/team6-education" class="card">
+                    <div class="project-img kumi"></div>
+                    <hr>
+                    <h4 class="project-title">Kumi</h4>
+                    <p class="project-descriptions">Currently working with a small team of student developers, designers and product managers to create an afforable educational platform
+                        for low-income schools.
+                    </p>
+                    <p class="tech-stack"><span class="badge badge-pill badge-primary">ReactJS</span> <span class="badge badge-pill badge-success">CSS</span> <span class="badge badge-pill badge-danger">HTML</span> <span class="badge badge-pill badge-warning">Flask</span> <span class="badge badge-pill badge-dark">MongoDB</span></p>
+                </a>
+                <a href="https://github.com/RileyChampion/SimpleTodoList" class="card">
+                    <div class="project-img todo-list"></div>
+                    <hr>
+                    <h4 class="project-title">Simple TodoList App</h4>
+                    <p class="project-descriptions">A introductory project, curtosy of CodePath, of a small todo list Android app to keep track of tasks needing to be completed.</p>
+                    <p class="tech-stack"><span class="badge badge-pill badge-secondary">Java</span> <span class="badge badge-pill badge-secondary">Android Studio</span></p>
+                </a>
+            </div>
+        </div>
+        <footer id="contact-container">
+            <h3 class="section-text">Contact</h3>
+            <div class="contact-wrapper">
+                <a href="#" class="contact-links after-lines">
+                    <i class="fas fa-envelope fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/rileychampion/" class="contact-links after-lines">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://github.com/RileyChampion" class="contact-links">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+            </div>
+            <p>Made with <span class="orange-text"><a href=""><3</a></span> by <span class="orange-text">Riley Chamion</span></p>
+        </footer>
+    </main>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
