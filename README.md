@@ -8,11 +8,13 @@ Link:
 
 * Language: HTML, CSS, JavaScript
 * Frameworks: [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/), [jQuery](https://jquery.com/)
-* Design: [Figma]
+* Design: [Figma](https://www.figma.com/)
 
 ## Mockups
 
+<img src='images/Personal-Site Mockups.PNG' title='Snake GIF' width='' alt='Snake GIF' />
 
+Created on [Figma](https://www.figma.com/)
 
 ## Notes
 
