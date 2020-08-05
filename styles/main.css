@@ -258,6 +258,10 @@ hr {
     display: flex;
 }
 
+.no-decoration {
+    text-decoration: none;
+}
+
 .social-links {
     color: var(--text-primary);
     display: inline;
