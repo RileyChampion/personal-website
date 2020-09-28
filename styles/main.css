@@ -206,7 +206,7 @@ hr {
     position: absolute;
     border-radius: 50%;
     border: 3px solid;
-    border-color: #ff1c1c transparent transparent;
+    border-color: var(--text-secondary) transparent transparent;
     animation: spin 2s linear infinite;
 }
 .profile-img {
@@ -283,7 +283,7 @@ hr {
 
 .section-text {
     text-align: center;
-    font-size: 2em;
+    font-size: 4em;
 }
 
 .project-deck {
@@ -443,7 +443,7 @@ hr {
     }
 
     .section-text {
-        font-size: 2.5em;
+        font-size: 4em;
     }
 
 
@@ -523,6 +523,20 @@ hr {
     .text-wrapper {
         margin: auto;
         padding: 2rem 0;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 769px) {
+    .about-img {
+        padding: 3rem 0rem;
+    }
+    .border-spin {
+        width: 50vw;
+        height: 50vw;
+    }
+    .profile-img {
+        width: 50vw;
+        height: 50vw;
     }
 }
 
