@@ -22,5 +22,5 @@ Created on [Figma](https://www.figma.com/)
  * Learned very early on how great it is to have mock-ups on hand made development a lot smoother.
  * **NOTE:** Some of the designs changed during development (ie Project cards, mobile view). 
  * Learned that CSS can be quite finicky, but the end result makes it so much nicer!
- * Looking to look more into back-end development and linking it to a database, but that's for my next project!
+ * Researching more into back-end development and linking it to a database, but that's for my next project! :)
 
