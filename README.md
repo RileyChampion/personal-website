@@ -2,7 +2,7 @@
 
 **Personal Website** - Taking some time during this summer to learn a little bit about web developement
 
-Link: 
+Link: http://rileychampion.com/
 
 ## Technologies
 
